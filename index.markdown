@@ -59,17 +59,23 @@ categories: projects
 
 <!-- Mission -->
 <table align=center width=800px>
-  <tr><td><h2 id="mission">Our Mission</h2></td></tr>
   <tr>
     <td>
-      <p align="justify">
-        The <strong>Korean-American Robotics Association (KARA)</strong> is a community of Korean and Korean-American students, researchers, and professionals in robotics. Our mission is to:
+      <h2 id="mission">Overview</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p align="justify" width="20%">
+        The <strong>Korean-American Robotics Association (KARA)</strong> is a non-profit community dedicated to fostering collaboration among Korean and Korean-American students, researchers, and professionals in robotics.  
+        We aim to create a vibrant platform for:
         <ul>
-          <li>Provide <b>mentorship</b> opportunities for aspiring robotics students</li>
-          <li>Host <b>seminars</b> and technical workshops to share knowledge</li>
-          <li>Promote <b>collaboration</b> between academia and industry</li>
-          <li>Support <b>networking</b> among members in the United States and beyond</li>
+          <li><b>Mentorship</b> — connecting students with experienced researchers and industry experts</li>
+          <li><b>Seminars & Workshops</b> — sharing cutting-edge research and technical insights</li>
+          <li><b>Research Exchange</b> — presenting ongoing work and fostering collaboration</li>
+          <li><b>Industry Engagement</b> — bridging academia and industry to accelerate innovation</li>
         </ul>
+        By bringing together passionate individuals from diverse backgrounds, KARA seeks to strengthen the Korean-American presence in robotics and promote global contributions to the field.
       </p>
     </td>
   </tr>
@@ -79,40 +85,52 @@ categories: projects
 
 <!-- Activities -->
 <table align=center width=800px>
-  <tr><td><h2 id="activities">Activities</h2></td></tr>
-  <tr>
-    <td>
-      <ul>
-        <li><highlight>Research Presentations</highlight> – Members share ongoing research and receive feedback</li>
-        <li><highlight>Seminars & Workshops</highlight> – Invited talks from experts in academia and industry</li>
-        <li><highlight>Industry Connections</highlight> – Opportunities to connect with leading robotics companies</li>
-        <li><highlight>Mentorship Program</highlight> – Pairing students with experienced researchers or professionals</li>
-      </ul>
-    </td>
-  </tr>
+<tr>
+  <td>
+    <h2 id="activities">Activities</h2>
+  </td>
+</tr>
+<tr>
+  <td>
+    <ul>
+      <li><highlight>Research Presentations</highlight> — Members share research progress and receive feedback</li>
+      <li><highlight>Technical Seminars</highlight> — Invited talks from academia and industry leaders</li>
+      <li><highlight>Networking Events</highlight> — Building personal and professional connections</li>
+      <li><highlight>Mentorship Program</highlight> — Guidance for students pursuing careers in robotics</li>
+    </ul>
+  </td>
+</tr>
 </table>
 
 <div style="height: 40px;"></div>
 
 <!-- Events -->
 <table align=center width=800px>
-  <tr><td><h2 id="events">Upcoming Events</h2></td></tr>
-  <tr>
-    <td>
-      <ul>
-        <li>Spring 2025 Kick-off Networking Session – March 15, 2025</li>
-        <li>Monthly Research Seminar Series – Every last Saturday of the month</li>
-        <li>Industry Insights: Robotics Startups in the US – April 20, 2025</li>
-      </ul>
-    </td>
-  </tr>
+<tr>
+  <td>
+    <h2 id="events">Upcoming Events</h2>
+  </td>
+</tr>
+<tr>
+  <td>
+    <ul>
+      <li>Spring 2025 Kick-off Networking Session — March 15, 2025</li>
+      <li>Monthly Research Seminar — Last Saturday of each month</li>
+      <li>Industry Insights: Robotics Startups in the US — April 20, 2025</li>
+    </ul>
+  </td>
+</tr>
 </table>
 
 <div style="height: 40px;"></div>
 
 <!-- Contact -->
 <table align=center width=800px>
-  <tr><td><h2 id="contact">Contact</h2></td></tr>
+  <tr>
+    <td>
+      <h2 id="contact">Contact</h2>
+    </td>
+  </tr>
   <tr>
     <td>
       For membership or inquiries, email us at <a href="mailto:info@koreanamericanrobotics.org"><highlight>info@koreanamericanrobotics.org</highlight></a>.
