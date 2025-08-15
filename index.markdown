@@ -21,13 +21,6 @@ categories: projects
   <meta property="og:image:width" content="880">
   <meta property="og:image:height" content="220">
   <meta property="og:url" content="https://koreanamericanrobotics.org/">
-
-<script src="./src/popup.js" type="text/javascript"></script>
-<script src="https://kit.fontawesome.com/ef67f68cfb.js" crossorigin="anonymous"></script>
-
-<style type="text/css" media="all">
-/* 기존 스타일 유지 */
-</style>
 </head>
 
 <body>
@@ -35,8 +28,8 @@ categories: projects
 <div class="section-background" style="background-color: #ebffe7ff;"></div>
 <div class="section-content">
 <div id="primarycontent">
-<div style="height: 20px;"></div>
 
+<div style="height: 20px;"></div>
 <table align=center width=800px>
   <tr>
     <td>
