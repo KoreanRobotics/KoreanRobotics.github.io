@@ -250,134 +250,134 @@ categories: projects
   <main class="container">
     <div class="spacer"></div>
 
-    <!-- Mission -->
-    <section id="mission" aria-labelledby="mission-heading">
-      <h2 id="mission-heading">Our Mission</h2>
-      <p>
-        The <strong>Korean-American Robotics Association (KARA)</strong> is a community of Korean and Korean-American students, researchers, and professionals in robotics. Our mission is to:
-      </p>
-      <ul class="card-list">
-        <li class="card"><span class="pill">Mentorship</span> Connecting students with experienced researchers and industry experts.</li>
-        <li class="card"><span class="pill">Seminars &amp; Workshops</span> Sharing cutting-edge research and practical know-how.</li>
-        <li class="card"><span class="pill">Research Exchange</span> Presenting ongoing work and fostering collaboration.</li>
-        <li class="card"><span class="pill">Industry Engagement</span> Bridging academia and industry to accelerate innovation.</li>
-      </ul>
-      <p>KARA supports members’ growth, collaboration, and visibility in the global robotics community.</p>
-    </section>
+  <!-- Mission -->
+  <section id="mission" aria-labelledby="mission-heading">
+    <h2 id="mission-heading">Our Mission</h2>
+    <p>
+      The <strong>Korean-American Robotics Association (KARA)</strong> is a community of Korean and Korean-American students, researchers, and professionals in robotics. Our mission is to:
+    </p>
+    <ul>
+      <li>Mentorship — Connecting students with experienced researchers and industry experts.</li>
+      <li>Seminars &amp; Workshops — Sharing cutting-edge research and practical know-how.</li>
+      <li>Research Exchange — Presenting ongoing work and fostering collaboration.</li>
+      <li>Industry Engagement — Bridging academia and industry to accelerate innovation.</li>
+    </ul>
+    <p>KARA supports members’ growth, collaboration, and visibility in the global robotics community.</p>
+  </section>
 
-    <div class="spacer-lg"></div>
+  <div class="spacer-lg"></div>
 
-    <!-- Activities -->
-    <section id="activities" aria-labelledby="activities-heading">
-      <h2 id="activities-heading">Activities</h2>
-      <p>We run the following on a regular basis:</p>
-      <ul class="card-list">
-        <li class="card"><span class="highlight">Research Presentations</span> — Member talks with Q&amp;A and paper discussions.</li>
-        <li class="card"><span class="highlight">Seminars &amp; Workshops</span> — Invited speakers and hands-on tutorials.</li>
-        <li class="card"><span class="highlight">Industry Connections</span> — Career panels and networking sessions.</li>
-        <li class="card"><span class="highlight">Mentorship Program</span> — Mentor matching and application guidance.</li>
-      </ul>
-    </section>
+  <!-- Activities -->
+  <section id="activities" aria-labelledby="activities-heading">
+    <h2 id="activities-heading">Activities</h2>
+    <p>We run the following on a regular basis:</p>
+    <ul>
+      <li>Research Presentations — Member talks with Q&amp;A and paper discussions.</li>
+      <li>Seminars &amp; Workshops — Invited speakers and hands-on tutorials.</li>
+      <li>Industry Connections — Career panels and networking sessions.</li>
+      <li>Mentorship Program — Mentor matching and application guidance.</li>
+    </ul>
+  </section>
 
-    <div class="spacer-lg"></div>
+  <div class="spacer-lg"></div>
 
-    <!-- Upcoming -->
-    <section id="upcoming" aria-labelledby="upcoming-heading">
-      <h2 id="upcoming-heading">Upcoming Seminar</h2>
-      <p>
-        To be announced soon. We plan monthly research seminars, mentorship office hours, and industry spotlights.
-        Join our mailing list via the <a href="#contact">Contact</a> section.
-      </p>
-      <!-- Example upcoming card (edit or duplicate) -->
-      <!--
-      <article class="card" aria-labelledby="next-seminar-title">
-        <div class="seminar-item" style="border:none;padding:0;">
-          <div class="seminar-date" aria-label="Date">Sep 20, 2025</div>
-          <div>
-            <div id="next-seminar-title" class="seminar-title">Learning-Based Task & Motion Planning for Lab Automation</div>
-            <div class="seminar-presenters">Presenters: Jane Doe (CMU), Alex Kim (X)</div>
-            <div class="muted">12:00–13:00 PT · Zoom (link will be emailed)</div>
-          </div>
-        </div>
-      </article>
-      -->
-    </section>
-
-    <div class="spacer-lg"></div>
-
-    <!-- Previous -->
-    <section id="previous" aria-labelledby="previous-heading">
-      <h2 id="previous-heading">Previous Seminars</h2>
-      <p class="muted">List includes: <em>date • title • presenters</em>. Edit directly in the HTML below.</p>
-
-      <ul class="seminar-list" aria-live="polite">
-        <!-- EXAMPLE ITEMS — replace with real entries -->
-        <li class="seminar-item">
-          <div class="seminar-date">Aug 10, 2025</div>
-          <div>
-            <div class="seminar-title">Scalable Multi-Robot Task Allocation with Hypergraphs</div>
-            <div class="seminar-presenters">Presenters: S. Lee (UIUC), S. Kim (Georgia Tech)</div>
-          </div>
-        </li>
-        <li class="seminar-item">
-          <div class="seminar-date">Jul 13, 2025</div>
-          <div>
-            <div class="seminar-title">Perception-Aware Motion Planning: From PRM to RRT*</div>
-            <div class="seminar-presenters">Presenters: Y. Sung (NTU/UT Austin), M. Seo (UT Austin)</div>
-          </div>
-        </li>
-        <li class="seminar-item">
-          <div class="seminar-date">Jun 08, 2025</div>
-          <div>
-            <div class="seminar-title">Bridging Academia and Industry in Robotics</div>
-            <div class="seminar-presenters">Presenters: W. Jung , Panel of Guests</div>
-          </div>
-        </li>
-        <!-- END EXAMPLES -->
-      </ul>
-    </section>
-
-    <div class="spacer-lg"></div>
-
-    <!-- Organizers (kept names/images as provided) -->
-    <section id="organizers" aria-labelledby="organizers-heading">
-      <h2 id="organizers-heading">Organizers</h2>
-      <div class="organizers-grid" role="list">
-        <div class="organizer" role="listitem">
-          <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
-          <p><a href="https://example.com/jkim">Mingyo Seo</a><br><span class="muted">Ph.D. Student, UT Austin</span></p>
-        </div>
-        <div class="organizer" role="listitem">
-          <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
-          <p><a href="https://example.com/sohn">Yoonchang Sung</a><br><span class="muted">Assistant Professor, NTU/UT Austin</span></p>
-        </div>
-        <div class="organizer" role="listitem">
-          <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
-          <p><a href="https://example.com/park">Sungmin Kim</a><br><span class="muted">Ph.D. Student, Georgia Tech</span></p>
-        </div>
-        <div class="organizer" role="listitem">
-          <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
-          <p><a href="https://example.com/choi">Wonsuhk Jung</a><br><span class="muted">Ph.D. Student, Georgia Tech</span></p>
-        </div>
-        <div class="organizer" role="listitem">
-          <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
-          <p><a href="https://example.com/lee">Seongwon Lee</a><br><span class="muted">Ph.D. Student, UIUC</span></p>
+  <!-- Upcoming -->
+  <section id="upcoming" aria-labelledby="upcoming-heading">
+    <h2 id="upcoming-heading">Upcoming Seminar</h2>
+    <p>
+      To be announced soon. We plan monthly research seminars, mentorship office hours, and industry spotlights.
+      Join our mailing list via the <a href="#contact">Contact</a> section.
+    </p>
+    <!-- Example upcoming card (edit or duplicate) -->
+    <!--
+    <article class="card" aria-labelledby="next-seminar-title">
+      <div class="seminar-item" style="border:none;padding:0;">
+        <div class="seminar-date" aria-label="Date">Sep 20, 2025</div>
+        <div>
+          <div id="next-seminar-title" class="seminar-title">Learning-Based Task & Motion Planning for Lab Automation</div>
+          <div class="seminar-presenters">Presenters: Jane Doe (CMU), Alex Kim (X)</div>
+          <div class="muted">12:00–13:00 PT · Zoom (link will be emailed)</div>
         </div>
       </div>
-    </section>
+    </article>
+    -->
+  </section>
 
-    <div class="spacer-lg"></div>
+  <div class="spacer-lg"></div>
 
-    <!-- Contact -->
-    <section id="contact" aria-labelledby="contact-heading" class="center">
-      <h2 id="contact-heading">Contact</h2>
-      <p>
-        For membership or inquiries, please email
-        <a href="mailto:info@koreanamericanrobotics.org"><span class="highlight">info@koreanamericanrobotics.org</span></a>.
-      </p>
-    </section>
+  <!-- Previous -->
+  <section id="previous" aria-labelledby="previous-heading">
+    <h2 id="previous-heading">Previous Seminars</h2>
+    <p class="muted">List includes: <em>date • title • presenters</em>. Edit directly in the HTML below.</p>
 
-    <div class="spacer-lg"></div>
+  <ul class="seminar-list" aria-live="polite">
+    <!-- EXAMPLE ITEMS — replace with real entries -->
+    <li class="seminar-item">
+      <div class="seminar-date">Aug 10, 2025</div>
+      <div>
+        <div class="seminar-title">Scalable Multi-Robot Task Allocation with Hypergraphs</div>
+        <div class="seminar-presenters">Presenters: S. Lee (UIUC), S. Kim (Georgia Tech)</div>
+      </div>
+    </li>
+    <li class="seminar-item">
+      <div class="seminar-date">Jul 13, 2025</div>
+      <div>
+        <div class="seminar-title">Perception-Aware Motion Planning: From PRM to RRT*</div>
+        <div class="seminar-presenters">Presenters: Y. Sung (NTU/UT Austin), M. Seo (UT Austin)</div>
+      </div>
+    </li>
+    <li class="seminar-item">
+      <div class="seminar-date">Jun 08, 2025</div>
+      <div>
+        <div class="seminar-title">Bridging Academia and Industry in Robotics</div>
+        <div class="seminar-presenters">Presenters: W. Jung , Panel of Guests</div>
+      </div>
+    </li>
+    <!-- END EXAMPLES -->
+  </ul>
+  </section>
+
+  <div class="spacer-lg"></div>
+
+  <!-- Organizers (kept names/images as provided) -->
+  <section id="organizers" aria-labelledby="organizers-heading">
+    <h2 id="organizers-heading">Organizers</h2>
+    <div class="organizers-grid" role="list">
+      <div class="organizer" role="listitem">
+        <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
+        <p><a href="https://example.com/jkim">Mingyo Seo</a><br><span class="muted">Ph.D. Student, UT Austin</span></p>
+      </div>
+      <div class="organizer" role="listitem">
+        <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
+        <p><a href="https://example.com/sohn">Yoonchang Sung</a><br><span class="muted">Assistant Professor, NTU/UT Austin</span></p>
+      </div>
+      <div class="organizer" role="listitem">
+        <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
+        <p><a href="https://example.com/park">Sungmin Kim</a><br><span class="muted">Ph.D. Student, Georgia Tech</span></p>
+      </div>
+      <div class="organizer" role="listitem">
+        <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
+        <p><a href="https://example.com/choi">Wonsuhk Jung</a><br><span class="muted">Ph.D. Student, Georgia Tech</span></p>
+      </div>
+      <div class="organizer" role="listitem">
+        <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
+        <p><a href="https://example.com/lee">Seongwon Lee</a><br><span class="muted">Ph.D. Student, UIUC</span></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="spacer-lg"></div>
+
+  <!-- Contact -->
+  <section id="contact" aria-labelledby="contact-heading" class="center">
+    <h2 id="contact-heading">Contact</h2>
+    <p>
+      For membership or inquiries, please email
+      <a href="mailto:info@koreanamericanrobotics.org"><span class="highlight">info@koreanamericanrobotics.org</span></a>.
+    </p>
+  </section>
+
+  <div class="spacer-lg"></div>
   </main>
 
   <!-- Footer -->
