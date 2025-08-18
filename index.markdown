@@ -270,7 +270,6 @@ categories: projects
   <!-- Activities -->
   <section id="activities" aria-labelledby="activities-heading">
     <h2 id="activities-heading">Activities</h2>
-    <p>We run the following on a regular basis:</p>
     <p>
       We plan biweekly research seminars, mentorship, and industry spotlights.
       Join our mailing list via the <a href="#contact">Contact</a> section.
@@ -315,7 +314,7 @@ categories: projects
   <!-- Previous -->
   <section id="previous" aria-labelledby="previous-heading">
     <h2 id="previous-heading">Previous Seminars</h2>
-    <p class="muted">List includes: <em>date • title • presenters</em>. Edit directly in the HTML below.</p>
+    <!-- <p class="muted">List includes: <em>date • title • presenters</em>. Edit directly in the HTML below.</p> -->
 
   <ul class="seminar-list" aria-live="polite">
     <!-- EXAMPLE ITEMS — replace with real entries -->
@@ -361,42 +360,94 @@ categories: projects
   <div class="spacer-lg"></div>
 
   <!-- Organizers (kept names/images as provided) -->
-  <section id="organizers" aria-labelledby="organizers-heading">
-    <h2 id="organizers-heading">Organizers</h2>
-    <div class="organizers-grid" role="list">
-      <div class="organizer" role="listitem">
-        <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
-        <p><a href="https://example.com/jkim">Mingyo Seo</a><br><span class="muted">Ph.D. Student, UT Austin</span></p>
-      </div>
-      <div class="organizer" role="listitem">
-        <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
-        <p><a href="https://example.com/sohn">Yoonchang Sung</a><br><span class="muted">Assistant Professor, NTU/UT Austin</span></p>
-      </div>
-      <div class="organizer" role="listitem">
-        <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
-        <p><a href="https://example.com/park">Sungmin Kim</a><br><span class="muted">Ph.D. Student, Georgia Tech</span></p>
-      </div>
-      <div class="organizer" role="listitem">
-        <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
-        <p><a href="https://example.com/choi">Wonsuhk Jung</a><br><span class="muted">Ph.D. Student, Georgia Tech</span></p>
-      </div>
-      <div class="organizer" role="listitem">
-        <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
-        <p>
-          <a href="https://example.com/lee">Seongwon Lee</a><br>
-          <span class="muted">Ph.D. Student, UIUC</span>
-        </p>
-        <p>
-          <a href="https://www.linkedin.com/in/scott-seongwon-lee-789b05221/" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://sl148.github.io/" aria-label="Personal Website">
-            <i class="fas fa-globe"></i>
-          </a>
-        </p>
-      </div>
+  <!-- Organizers -->
+<section id="organizers" aria-labelledby="organizers-heading">
+  <h2 id="organizers-heading">Organizers</h2>
+  <div class="organizers-grid" role="list">
+    <!-- Mingyo Seo -->
+    <div class="organizer" role="listitem">
+      <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
+      <p>
+        <a href="https://example.com/jkim">Mingyo Seo</a><br>
+        <span class="muted">Ph.D. Student, UT Austin</span>
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/mingyo-seo" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://example.com/jkim" aria-label="Personal Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </p>
     </div>
-  </section>
+    <!-- Yoonchang Sung -->
+    <div class="organizer" role="listitem">
+      <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
+      <p>
+        <a href="https://example.com/sohn">Yoonchang Sung</a><br>
+        <span class="muted">Assistant Professor, NTU/UT Austin</span>
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/yoonchang-sung" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://example.com/sohn" aria-label="Personal Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </p>
+    </div>
+    <!-- Sungmin Kim -->
+    <div class="organizer" role="listitem">
+      <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
+      <p>
+        <a href="https://example.com/park">Sungmin Kim</a><br>
+        <span class="muted">Ph.D. Student, Georgia Tech</span>
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/sungmin-kim" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://example.com/park" aria-label="Personal Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </p>
+    </div>
+    <!-- Wonsuhk Jung -->
+    <div class="organizer" role="listitem">
+      <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
+      <p>
+        <a href="https://example.com/choi">Wonsuhk Jung</a><br>
+        <span class="muted">Ph.D. Student, Georgia Tech</span>
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/wonsuhk-jung" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://example.com/choi" aria-label="Personal Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </p>
+    </div>
+    <!-- Seongwon Lee -->
+    <div class="organizer" role="listitem">
+      <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
+      <p>
+        <a href="https://example.com/lee">Seongwon Lee</a><br>
+        <span class="muted">Ph.D. Student, UIUC</span>
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/seongwon-lee" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://example.com/lee" aria-label="Personal Website">
+          <i class="fas fa-globe"></i>
+        </a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
   <div class="spacer-lg"></div>
 
