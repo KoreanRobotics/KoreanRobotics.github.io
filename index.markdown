@@ -373,7 +373,7 @@ categories: projects
             <span class="muted">Ph.D. Student<br>UT Austin</span>
           </p>
           <div class="social-icons">
-            <a href="https://linkedin.com/in/mingyo-seo" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/mingyo/" aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://example.com/jkim" aria-label="Personal Website">
@@ -390,7 +390,7 @@ categories: projects
             <span class="muted">Assistant Professor<br>NTU/UT Austin</span>
           </p>
           <div class="social-icons">
-            <a href="https://linkedin.com/in/yoonchang-sung" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/yoonchangsung/" aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://example.com/sohn" aria-label="Personal Website">
@@ -407,7 +407,7 @@ categories: projects
             <span class="muted">Ph.D. Student<br>Georgia Tech</span>
           </p>
           <div class="social-icons">
-            <a href="https://linkedin.com/in/sungmin-kim" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/sungmin-me/" aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://example.com/park" aria-label="Personal Website">
@@ -424,10 +424,10 @@ categories: projects
             <span class="muted">Ph.D. Student<br>Georgia Tech</span>
           </p>
           <div class="social-icons">
-            <a href="https://linkedin.com/in/wonsuhk-jung" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/wonsuhk-jung/" aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://example.com/choi" aria-label="Personal Website">
+            <a href="https://wonsuhkjung.wordpress.com/" aria-label="Personal Website">
               <i class="fas fa-globe"></i>
             </a>
           </div>
@@ -441,10 +441,10 @@ categories: projects
             <span class="muted">Ph.D. Student<br>UIUC</span>
           </p>
           <div class="social-icons">
-            <a href="https://linkedin.com/in/seongwon-lee" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/scott-seongwon-lee-789b05221/" aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://example.com/lee" aria-label="Personal Website">
+            <a href="https://sl148.github.io/" aria-label="Personal Website">
               <i class="fas fa-globe"></i>
             </a>
           </div>
