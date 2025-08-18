@@ -24,7 +24,7 @@ categories: projects
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Your CSS -->
   <link media="all" href="./css/glab.css" type="text/css" rel="stylesheet" />
@@ -186,6 +186,22 @@ categories: projects
     }
     .muted { color: #666; font-size: 0.95rem; }
 
+    /* Social icons */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 6px;
+    }
+    .social-icons a i {
+      font-size: 1.3rem;
+      color: var(--kara-green);
+      transition: color 0.2s;
+    }
+    .social-icons a:hover i {
+      color: #0a66c2; /* LinkedIn blue hover */
+    }
+
     /* Tables (kept minimal) */
     table { border-collapse: collapse; width: 100%; }
 
@@ -250,217 +266,204 @@ categories: projects
   <main class="container">
     <div class="spacer"></div>
 
-  <!-- Mission -->
-  <section id="mission" aria-labelledby="mission-heading">
-    <h2 id="mission-heading">Our Mission</h2>
-    <p>
-      The <strong>Korean-American Robotics Association (KARA)</strong> is a community of Korean and Korean-American students, researchers, and professionals in robotics. Our mission is to:
-    </p>
-    <ul>
-      <li>Mentorship — Connecting students with experienced researchers and industry experts.</li>
-      <li>Seminars &amp; Workshops — Sharing cutting-edge research and practical know-how.</li>
-      <li>Research Exchange — Presenting ongoing work and fostering collaboration.</li>
-      <li>Industry Engagement — Bridging academia and industry to accelerate innovation.</li>
-    </ul>
-    <p>KARA supports members’ growth, collaboration, and visibility in the global robotics community.</p>
-  </section>
+    <!-- Mission -->
+    <section id="mission" aria-labelledby="mission-heading">
+      <h2 id="mission-heading">Our Mission</h2>
+      <p>
+        The <strong>Korean-American Robotics Association (KARA)</strong> is a community of Korean and Korean-American students, researchers, and professionals in robotics. Our mission is to:
+      </p>
+      <ul>
+        <li>Mentorship — Connecting students with experienced researchers and industry experts.</li>
+        <li>Seminars &amp; Workshops — Sharing cutting-edge research and practical know-how.</li>
+        <li>Research Exchange — Presenting ongoing work and fostering collaboration.</li>
+        <li>Industry Engagement — Bridging academia and industry to accelerate innovation.</li>
+      </ul>
+      <p>KARA supports members’ growth, collaboration, and visibility in the global robotics community.</p>
+    </section>
 
-  <div class="spacer-lg"></div>
+    <div class="spacer-lg"></div>
 
-  <!-- Activities -->
-  <section id="activities" aria-labelledby="activities-heading">
-    <h2 id="activities-heading">Activities</h2>
-    <p>
-      We plan biweekly research seminars, mentorship, and industry spotlights.
-      Join our mailing list via the <a href="#contact">Contact</a> section.
-    </p>
-    <ul>
-      <li>Research Presentations — Member talks with Q&amp;A and paper discussions.</li>
-      <li>Seminars &amp; Workshops — Invited speakers and hands-on tutorials.</li>
-      <li>Industry Connections — Career panels and networking sessions.</li>
-      <li>Mentorship Program — Mentor matching and application guidance.</li>
-    </ul>
-  </section>
+    <!-- Activities -->
+    <section id="activities" aria-labelledby="activities-heading">
+      <h2 id="activities-heading">Activities</h2>
+      <p>
+        We plan biweekly research seminars, mentorship, and industry spotlights.
+        Join our mailing list via the <a href="#contact">Contact</a> section.
+      </p>
+      <ul>
+        <li>Research Presentations — Member talks with Q&amp;A and paper discussions.</li>
+        <li>Seminars &amp; Workshops — Invited speakers and hands-on tutorials.</li>
+        <li>Industry Connections — Career panels and networking sessions.</li>
+        <li>Mentorship Program — Mentor matching and application guidance.</li>
+      </ul>
+    </section>
 
-  <div class="spacer-lg"></div>
+    <div class="spacer-lg"></div>
 
-  <!-- Upcoming -->
-  <section id="upcoming" aria-labelledby="upcoming-heading">
-    <h2 id="upcoming-heading">Upcoming Seminar</h2>
-    <li class="seminar-item">
-      <div class="seminar-date">Aug 21, 2025</div>
-      <div>
-        <div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div>
-        <div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div>
-      </div>
-    </li>
-    <!-- Example upcoming card (edit or duplicate) -->
-    <!--
-    <article class="card" aria-labelledby="next-seminar-title">
-      <div class="seminar-item" style="border:none;padding:0;">
-        <div class="seminar-date" aria-label="Date">Sep 20, 2025</div>
-        <div>
-          <div id="next-seminar-title" class="seminar-title">Learning-Based Task & Motion Planning for Lab Automation</div>
-          <div class="seminar-presenters">Presenters: Jane Doe (CMU), Alex Kim (X)</div>
-          <div class="muted">12:00–13:00 PT · Zoom (link will be emailed)</div>
+    <!-- Upcoming -->
+    <section id="upcoming" aria-labelledby="upcoming-heading">
+      <h2 id="upcoming-heading">Upcoming Seminar</h2>
+      <ul class="seminar-list" aria-live="polite">
+        <li class="seminar-item">
+          <div class="seminar-date">Aug 21, 2025</div>
+          <div>
+            <div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div>
+            <div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <div class="spacer-lg"></div>
+
+    <!-- Previous -->
+    <section id="previous" aria-labelledby="previous-heading">
+      <h2 id="previous-heading">Previous Seminars</h2>
+
+      <ul class="seminar-list" aria-live="polite">
+        <li class="seminar-item">
+          <div class="seminar-date">Aug 21, 2025</div>
+          <div>
+            <div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div>
+            <div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div>
+          </div>
+        </li>
+        <li class="seminar-item">
+          <div class="seminar-date">July 24, 2025</div>
+          <div>
+            <div class="seminar-title">Radiation Source Localization using Mobile Robot</div>
+            <div class="seminar-presenters">Presenter: Hojoon Son (Ph.D. Student, Georgia Tech)</div>
+          </div>
+        </li>
+        <li class="seminar-item">
+          <div class="seminar-date">July 10, 2025</div>
+          <div>
+            <div class="seminar-title">Toward Real-Time Open-Vocabulary Semantic Mapping for Outdoor Robot Navigation</div>
+            <div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, Carnegie Mellon)</div>
+          </div>
+        </li>
+        <li class="seminar-item">
+          <div class="seminar-date">Jun 26, 2025</div>
+          <div>
+            <div class="seminar-title">Versatile Trajectory Planner for Aerial Tracking</div>
+            <div class="seminar-presenters">Presenter: Yunwoo Lee (Postdoctoral Researcher, Carnegie Mellon)</div>
+          </div>
+        </li>
+        <li class="seminar-item">
+          <div class="seminar-date">June 12, 2025</div>
+          <div>
+            <div class="seminar-title">Machine Learning-based Online Monitoring with Robots for Nuclear Power Plants</div>
+            <div class="seminar-presenters">Presenter: Sungmin Kim (Ph.D. Student, Geogia Tech)</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <div class="spacer-lg"></div>
+
+    <!-- Organizers -->
+    <section id="organizers" aria-labelledby="organizers-heading">
+      <h2 id="organizers-heading">Organizers</h2>
+      <div class="organizers-grid" role="list">
+        <!-- Mingyo Seo -->
+        <div class="organizer" role="listitem">
+          <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
+          <p>
+            <span>Mingyo Seo</span><br>
+            <span class="muted">Ph.D. Student, UT Austin</span>
+          </p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/mingyo-seo" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://example.com/jkim" aria-label="Personal Website">
+              <i class="fas fa-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Yoonchang Sung -->
+        <div class="organizer" role="listitem">
+          <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
+          <p>
+            <span>Yoonchang Sung</span><br>
+            <span class="muted">Assistant Professor, NTU/UT Austin</span>
+          </p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/yoonchang-sung" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://example.com/sohn" aria-label="Personal Website">
+              <i class="fas fa-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sungmin Kim -->
+        <div class="organizer" role="listitem">
+          <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
+          <p>
+            <span>Sungmin Kim</span><br>
+            <span class="muted">Ph.D. Student, Georgia Tech</span>
+          </p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/sungmin-kim" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://example.com/park" aria-label="Personal Website">
+              <i class="fas fa-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Wonsuhk Jung -->
+        <div class="organizer" role="listitem">
+          <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
+          <p>
+            <span>Wonsuhk Jung</span><br>
+            <span class="muted">Ph.D. Student, Georgia Tech</span>
+          </p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/wonsuhk-jung" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://example.com/choi" aria-label="Personal Website">
+              <i class="fas fa-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Seongwon Lee -->
+        <div class="organizer" role="listitem">
+          <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
+          <p>
+            <span>Seongwon Lee</span><br>
+            <span class="muted">Ph.D. Student, UIUC</span>
+          </p>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/seongwon-lee" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://example.com/lee" aria-label="Personal Website">
+              <i class="fas fa-globe"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </article>
-    -->
-  </section>
+    </section>
 
-  <div class="spacer-lg"></div>
+    <div class="spacer-lg"></div>
 
-  <!-- Previous -->
-  <section id="previous" aria-labelledby="previous-heading">
-    <h2 id="previous-heading">Previous Seminars</h2>
-    <!-- <p class="muted">List includes: <em>date • title • presenters</em>. Edit directly in the HTML below.</p> -->
+    <!-- Contact -->
+    <section id="contact" aria-labelledby="contact-heading" class="center">
+      <h2 id="contact-heading">Contact</h2>
+      <p>
+        For membership or inquiries, please email
+        <a href="mailto:info@koreanamericanrobotics.org"><span class="highlight">info@koreanamericanrobotics.org</span></a>.
+      </p>
+    </section>
 
-  <ul class="seminar-list" aria-live="polite">
-    <!-- EXAMPLE ITEMS — replace with real entries -->
-    <li class="seminar-item">
-      <div class="seminar-date">Aug 21, 2025</div>
-      <div>
-        <div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div>
-        <div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div>
-      </div>
-    </li>
-    <li class="seminar-item">
-      <div class="seminar-date">July 24, 2025</div>
-      <div>
-        <div class="seminar-title">Radiation Source Localization using Mobile Robot</div>
-        <div class="seminar-presenters">Presenter: Hojoon Son (Ph.D. Student, Georgia Tech)</div>
-      </div>
-    </li>
-    <li class="seminar-item">
-      <div class="seminar-date">July 10, 2025</div>
-      <div>
-        <div class="seminar-title">Toward Real-Time Open-Vocabulary Semantic Mapping for Outdoor Robot Navigation</div>
-        <div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, Carnegie Mellon)</div>
-      </div>
-    </li>
-    <li class="seminar-item">
-      <div class="seminar-date">Jun 26, 2025</div>
-      <div>
-        <div class="seminar-title">Versatile Trajectory Planner for Aerial Tracking</div>
-        <div class="seminar-presenters">Presenter: Yunwoo Lee (Postdoctoral Researcher, Carnegie Mellon)</div>
-      </div>
-    </li>
-    <li class="seminar-item">
-      <div class="seminar-date">June 12, 2025</div>
-      <div>
-        <div class="seminar-title">Machine Learning-based Online Monitoring with Robots for Nuclear Power Plants</div>
-        <div class="seminar-presenters">Presenter: Sungmin Kim (Ph.D. Student, Geogia Tech)</div>
-      </div>
-    </li>
-    <!-- END EXAMPLES -->
-  </ul>
-  </section>
-
-  <div class="spacer-lg"></div>
-
-  <!-- Organizers (kept names/images as provided) -->
-  <!-- Organizers -->
-<section id="organizers" aria-labelledby="organizers-heading">
-  <h2 id="organizers-heading">Organizers</h2>
-  <div class="organizers-grid" role="list">
-    <!-- Mingyo Seo -->
-    <div class="organizer" role="listitem">
-      <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
-      <p>
-        <a href="https://example.com/jkim">Mingyo Seo</a><br>
-        <span class="muted">Ph.D. Student, UT Austin</span>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/mingyo-seo" aria-label="LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://example.com/jkim" aria-label="Personal Website">
-          <i class="fas fa-globe"></i>
-        </a>
-      </p>
-    </div>
-    <!-- Yoonchang Sung -->
-    <div class="organizer" role="listitem">
-      <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
-      <p>
-        <a href="https://example.com/sohn">Yoonchang Sung</a><br>
-        <span class="muted">Assistant Professor, NTU/UT Austin</span>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/yoonchang-sung" aria-label="LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://example.com/sohn" aria-label="Personal Website">
-          <i class="fas fa-globe"></i>
-        </a>
-      </p>
-    </div>
-    <!-- Sungmin Kim -->
-    <div class="organizer" role="listitem">
-      <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
-      <p>
-        <a href="https://example.com/park">Sungmin Kim</a><br>
-        <span class="muted">Ph.D. Student, Georgia Tech</span>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/sungmin-kim" aria-label="LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://example.com/park" aria-label="Personal Website">
-          <i class="fas fa-globe"></i>
-        </a>
-      </p>
-    </div>
-    <!-- Wonsuhk Jung -->
-    <div class="organizer" role="listitem">
-      <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
-      <p>
-        <a href="https://example.com/choi">Wonsuhk Jung</a><br>
-        <span class="muted">Ph.D. Student, Georgia Tech</span>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/wonsuhk-jung" aria-label="LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://example.com/choi" aria-label="Personal Website">
-          <i class="fas fa-globe"></i>
-        </a>
-      </p>
-    </div>
-    <!-- Seongwon Lee -->
-    <div class="organizer" role="listitem">
-      <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
-      <p>
-        <a href="https://example.com/lee">Seongwon Lee</a><br>
-        <span class="muted">Ph.D. Student, UIUC</span>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/seongwon-lee" aria-label="LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://example.com/lee" aria-label="Personal Website">
-          <i class="fas fa-globe"></i>
-        </a>
-      </p>
-    </div>
-
-  </div>
-</section>
-
-
-  <div class="spacer-lg"></div>
-
-  <!-- Contact -->
-  <section id="contact" aria-labelledby="contact-heading" class="center">
-    <h2 id="contact-heading">Contact</h2>
-    <p>
-      For membership or inquiries, please email
-      <a href="mailto:info@koreanamericanrobotics.org"><span class="highlight">info@koreanamericanrobotics.org</span></a>.
-    </p>
-  </section>
-
-  <div class="spacer-lg"></div>
+    <div class="spacer-lg"></div>
   </main>
 
   <!-- Footer -->
