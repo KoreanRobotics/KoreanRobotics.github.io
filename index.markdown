@@ -370,7 +370,7 @@ categories: projects
           <img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Portrait of Mingyo Seo" />
           <p>
             <span>Mingyo Seo</span><br>
-            <span class="muted">Ph.D. Student, UT Austin</span>
+            <span class="muted">Ph.D. Student<br>UT Austin</span>
           </p>
           <div class="social-icons">
             <a href="https://linkedin.com/in/mingyo-seo" aria-label="LinkedIn">
@@ -387,7 +387,7 @@ categories: projects
           <img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Portrait of Yoonchang Sung" />
           <p>
             <span>Yoonchang Sung</span><br>
-            <span class="muted">Assistant Professor, NTU/UT Austin</span>
+            <span class="muted">Assistant Professor<br>NTU/UT Austin</span>
           </p>
           <div class="social-icons">
             <a href="https://linkedin.com/in/yoonchang-sung" aria-label="LinkedIn">
@@ -404,7 +404,7 @@ categories: projects
           <img class="profile" src="./src/figure/organizers/park.jpg" alt="Portrait of Sungmin Kim" />
           <p>
             <span>Sungmin Kim</span><br>
-            <span class="muted">Ph.D. Student, Georgia Tech</span>
+            <span class="muted">Ph.D. Student<br>Georgia Tech</span>
           </p>
           <div class="social-icons">
             <a href="https://linkedin.com/in/sungmin-kim" aria-label="LinkedIn">
@@ -421,7 +421,7 @@ categories: projects
           <img class="profile" src="./src/figure/organizers/choi.jpg" alt="Portrait of Wonsuhk Jung" />
           <p>
             <span>Wonsuhk Jung</span><br>
-            <span class="muted">Ph.D. Student, Georgia Tech</span>
+            <span class="muted">Ph.D. Student<br>Georgia Tech</span>
           </p>
           <div class="social-icons">
             <a href="https://linkedin.com/in/wonsuhk-jung" aria-label="LinkedIn">
@@ -438,7 +438,7 @@ categories: projects
           <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
           <p>
             <span>Seongwon Lee</span><br>
-            <span class="muted">Ph.D. Student, UIUC</span>
+            <span class="muted">Ph.D. Student<br>UIUC</span>
           </p>
           <div class="social-icons">
             <a href="https://linkedin.com/in/seongwon-lee" aria-label="LinkedIn">
@@ -458,7 +458,7 @@ categories: projects
     <section id="contact" aria-labelledby="contact-heading" class="center">
       <h2 id="contact-heading">Contact</h2>
       <p>
-        For membership or inquiries, please email
+        For inquiries, please email
         <a href="mailto:info@koreanamericanrobotics.org"><span class="highlight">info@koreanamericanrobotics.org</span></a>.
       </p>
     </section>
