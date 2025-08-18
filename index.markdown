@@ -4,7 +4,6 @@ permalink: /
 categories: projects
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -25,6 +24,7 @@ categories: projects
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Your CSS -->
   <link media="all" href="./css/glab.css" type="text/css" rel="stylesheet" />
@@ -271,6 +271,10 @@ categories: projects
   <section id="activities" aria-labelledby="activities-heading">
     <h2 id="activities-heading">Activities</h2>
     <p>We run the following on a regular basis:</p>
+    <p>
+      We plan biweekly research seminars, mentorship, and industry spotlights.
+      Join our mailing list via the <a href="#contact">Contact</a> section.
+    </p>
     <ul>
       <li>Research Presentations — Member talks with Q&amp;A and paper discussions.</li>
       <li>Seminars &amp; Workshops — Invited speakers and hands-on tutorials.</li>
@@ -284,10 +288,6 @@ categories: projects
   <!-- Upcoming -->
   <section id="upcoming" aria-labelledby="upcoming-heading">
     <h2 id="upcoming-heading">Upcoming Seminar</h2>
-    <p>
-      To be announced soon. We plan monthly research seminars, mentorship office hours, and industry spotlights.
-      Join our mailing list via the <a href="#contact">Contact</a> section.
-    </p>
     <li class="seminar-item">
       <div class="seminar-date">Aug 21, 2025</div>
       <div>
@@ -382,7 +382,18 @@ categories: projects
       </div>
       <div class="organizer" role="listitem">
         <img class="profile" src="./src/figure/organizers/lee.jpg" alt="Portrait of Seongwon Lee" />
-        <p><a href="https://example.com/lee">Seongwon Lee</a><br><span class="muted">Ph.D. Student, UIUC</span></p>
+        <p>
+          <a href="https://example.com/lee">Seongwon Lee</a><br>
+          <span class="muted">Ph.D. Student, UIUC</span>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/scott-seongwon-lee-789b05221/" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://sl148.github.io/" aria-label="Personal Website">
+            <i class="fas fa-globe"></i>
+          </a>
+        </p>
       </div>
     </div>
   </section>
