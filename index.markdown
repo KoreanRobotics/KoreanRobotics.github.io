@@ -236,7 +236,7 @@ categories: projects
           <a href="#mission">Our Mission</a>
           <a href="#activities">Activities</a>
           <a href="#upcoming">Upcoming Events</a>
-          <a href="#previous">Previous Seminars</a>
+          <a href="#previous">Previous Events</a>
           <a href="#organizers">Organizers</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -288,6 +288,13 @@ categories: projects
       To be announced soon. We plan monthly research seminars, mentorship office hours, and industry spotlights.
       Join our mailing list via the <a href="#contact">Contact</a> section.
     </p>
+    <li class="seminar-item">
+      <div class="seminar-date">Aug 21, 2025</div>
+      <div>
+        <div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div>
+        <div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div>
+      </div>
+    </li>
     <!-- Example upcoming card (edit or duplicate) -->
     <!--
     <article class="card" aria-labelledby="next-seminar-title">
@@ -313,24 +320,38 @@ categories: projects
   <ul class="seminar-list" aria-live="polite">
     <!-- EXAMPLE ITEMS — replace with real entries -->
     <li class="seminar-item">
-      <div class="seminar-date">Aug 10, 2025</div>
+      <div class="seminar-date">Aug 21, 2025</div>
       <div>
-        <div class="seminar-title">Scalable Multi-Robot Task Allocation with Hypergraphs</div>
-        <div class="seminar-presenters">Presenters: S. Lee (UIUC), S. Kim (Georgia Tech)</div>
+        <div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div>
+        <div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div>
       </div>
     </li>
     <li class="seminar-item">
-      <div class="seminar-date">Jul 13, 2025</div>
+      <div class="seminar-date">July 24, 2025</div>
       <div>
-        <div class="seminar-title">Perception-Aware Motion Planning: From PRM to RRT*</div>
-        <div class="seminar-presenters">Presenters: Y. Sung (NTU/UT Austin), M. Seo (UT Austin)</div>
+        <div class="seminar-title">Radiation Source Localization using Mobile Robot</div>
+        <div class="seminar-presenters">Presenter: Hojoon Son (Ph.D. Student, Georgia Tech)</div>
       </div>
     </li>
     <li class="seminar-item">
-      <div class="seminar-date">Jun 08, 2025</div>
+      <div class="seminar-date">July 10, 2025</div>
       <div>
-        <div class="seminar-title">Bridging Academia and Industry in Robotics</div>
-        <div class="seminar-presenters">Presenters: W. Jung , Panel of Guests</div>
+        <div class="seminar-title">Toward Real-Time Open-Vocabulary Semantic Mapping for Outdoor Robot Navigation</div>
+        <div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, Carnegie Mellon)</div>
+      </div>
+    </li>
+    <li class="seminar-item">
+      <div class="seminar-date">Jun 26, 2025</div>
+      <div>
+        <div class="seminar-title">Versatile Trajectory Planner for Aerial Tracking</div>
+        <div class="seminar-presenters">Presenter: Yunwoo Lee (Postdoctoral Researcher, Carnegie Mellon)</div>
+      </div>
+    </li>
+    <li class="seminar-item">
+      <div class="seminar-date">June 12, 2025</div>
+      <div>
+        <div class="seminar-title">Machine Learning-based Online Monitoring with Robots for Nuclear Power Plants</div>
+        <div class="seminar-presenters">Presenter: Sungmin Kim (Ph.D. Student, Geogia Tech)</div>
       </div>
     </li>
     <!-- END EXAMPLES -->
