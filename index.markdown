@@ -142,9 +142,8 @@ categories: projects
       <p><strong>Korean-American Robotics Association</strong>는 로보틱스 분야의 한인 및 한미 학생, 연구자, 산업 종사자 커뮤니티이며, 아래와 같은 활동은 진행중입니다.</p>
       <ul>
         <li>멘토링 — 학생과 연구자, 산업 전문가를 연결</li>
-        <li>세미나 & 워크숍 — 최신 연구와 실용적인 노하우 공유</li>
-        <li>연구 교류 — 진행 중인 연구 발표와 협업 촉진</li>
-        <li>산업 연계 — 학계와 산업을 연결하여 혁신 가속</li>
+        <li>세미나 & 워크숍 — 최신 연구 및 노하우 공유</li>
+        <li>연구 교류 — 진행 중인 연구 발표와 협업</li>
       </ul>
     </section>
 
@@ -165,11 +164,12 @@ categories: projects
     <section id="organizers">
       <h2 id="organizers-heading">Organizers</h2>
       <div class="organizers-grid">
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/jkim.jpg" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/sohn.jpg" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU/UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.jpg" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/park.jpg" alt="Sungmin Kim" /><p><span>Sungmin Kim</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/choi.jpg" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/lee.jpg" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.jpg" alt="Dongho Kang" /><p><span>Dongho Kang</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.jpg" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU/UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.jpg" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/slee.jpg" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
       </div>
     </section>
 
