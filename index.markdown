@@ -177,7 +177,7 @@ categories: projects
   </main>
 
   <footer class="section-container">
-    <div class="section-background" style="background-color:#f7fff4;"></div>
+    <div class="section-background" style="background-color:#87CEEB;"></div>
     <div class="section-content">
       <div class="container center">
         <p class="muted">© <span id="year"></span> Korean-American Robotics Association · All rights reserved.</p>
