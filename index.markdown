@@ -127,11 +127,11 @@ categories: projects
     <section id="quicklinks">
       <h2>Quick Links</h2>
       <ul>
-        <li><i class="fa-solid fa-video"></i> <a href="https://YOUR-ZOOM-MEETING-LINK" target="_blank">세미나 Zoom 링크</a></li>
-        <li><i class="fa-solid fa-calendar-days"></i> <a href="https://YOUR-GOOGLE-CALENDAR-LINK" target="_blank">Google Calendar</a></li>
-        <li><i class="fa-brands fa-linkedin"></i> <a href="https://YOUR-LINKEDIN-GROUP-LINK" target="_blank">LinkedIn Group</a></li>
-        <li><i class="fa-brands fa-slack"></i> <a href="https://YOUR-SLACK-GROUP-LINK" target="_blank">Slack Group</a></li>
-        <li><i class="fa-solid fa-envelope"></i> <a href="https://YOUR-MAILING-LIST-SIGNUP-LINK" target="_blank">Mailing List 가입</a></li>
+        <li><i class="fa-solid fa-video"></i> <a href="https://utexas.zoom.us/j/97343134961?pwd=yc8JkUJ4uT7ArNF7LOG8UrkCcOfOGs.1" target="_blank">세미나 Zoom 링크</a></li>
+        <li><i class="fa-solid fa-calendar-days"></i> <a href="https://shorturl.at/Z11KU" target="_blank">Google Calendar</a></li>
+        <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/groups/13352540/" target="_blank">LinkedIn</a></li>
+        <li><i class="fa-brands fa-slack"></i> <a href="https://shorturl.at/dS4QC" target="_blank">Slack</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="https://shorturl.at/w3S21" target="_blank">Mailing List 가입</a></li>
       </ul>
     </section>
 
