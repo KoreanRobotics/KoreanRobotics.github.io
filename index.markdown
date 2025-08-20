@@ -114,7 +114,6 @@ categories: projects
           <a href="#mission">Mission & Activities</a>
           <a href="#seminars">Seminars</a>
           <a href="#organizers">Organizers</a>
-          <a href="#contact">Contact</a>
         </nav>
 
         <div class="spacer"></div>
