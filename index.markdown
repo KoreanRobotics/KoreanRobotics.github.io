@@ -61,7 +61,7 @@ categories: projects
     /* 옵션3: 네모 */
     .bullet-square::before { content: "■"; }
     /* 기본 스타일 */
-    h2::before { content: "▹"; color: var(--kara-green); font-size: 1.1rem; position: absolute; left: -20px; top: 0.15em; }
+    h2::before { content: none; color: var(--kara-green); font-size: 1.1rem; position: absolute; left: -20px; top: 0.15em; }
     a { color: var(--kara-green); text-decoration: none; font-weight: 600; }
     a:hover, a:focus { text-decoration: underline; outline: none; }
     .container { max-width: var(--container-max); margin: 0 auto; padding: 0 16px; }
@@ -128,10 +128,10 @@ categories: projects
       <h2>Quick Links</h2>
       <ul>
         <li><i class="fa-solid fa-video"></i> <a href="https://YOUR-ZOOM-MEETING-LINK" target="_blank">세미나 Zoom 링크</a></li>
-        <li><i class="fa-solid fa-calendar-days"></i> <a href="https://YOUR-GOOGLE-CALENDAR-LINK" target="_blank">구글 캘린더</a></li>
-        <li><i class="fa-brands fa-linkedin"></i> <a href="https://YOUR-LINKEDIN-GROUP-LINK" target="_blank">링크드인 그룹</a></li>
-        <li><i class="fa-brands fa-slack"></i> <a href="https://YOUR-SLACK-GROUP-LINK" target="_blank">슬랙 그룹</a></li>
-        <li><i class="fa-solid fa-envelope"></i> <a href="https://YOUR-MAILING-LIST-SIGNUP-LINK" target="_blank">메일링 리스트 가입</a></li>
+        <li><i class="fa-solid fa-calendar-days"></i> <a href="https://YOUR-GOOGLE-CALENDAR-LINK" target="_blank">Google Calendar</a></li>
+        <li><i class="fa-brands fa-linkedin"></i> <a href="https://YOUR-LINKEDIN-GROUP-LINK" target="_blank">LinkedIn Group</a></li>
+        <li><i class="fa-brands fa-slack"></i> <a href="https://YOUR-SLACK-GROUP-LINK" target="_blank">Slack Group</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="https://YOUR-MAILING-LIST-SIGNUP-LINK" target="_blank">Mailing List 가입</a></li>
       </ul>
     </section>
 
@@ -164,21 +164,17 @@ categories: projects
     <section id="organizers">
       <h2 id="organizers-heading">Organizers</h2>
       <div class="organizers-grid">
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.jpg" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/park.jpg" alt="Sungmin Kim" /><p><span>Sungmin Kim</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.jpg" alt="Dongho Kang" /><p><span>Dongho Kang</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.jpg" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU/UT Austin</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.jpg" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/slee.jpg" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.png" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/skim.png" alt="Sungmin Kim" /><p><span>Sungmin Kim</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/dkang.jpg" alt="Dongho Kang" /><p><span>Dongho Kang</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.png" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU/UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.png" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/slee.png" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
       </div>
     </section>
 
     <div class="spacer-lg"></div>
 
-    <section id="contact" class="center">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:info@koreanamericanrobotics.org">info@koreanamericanrobotics.org</a></p>
-    </section>
   </main>
 
   <footer class="section-container">
