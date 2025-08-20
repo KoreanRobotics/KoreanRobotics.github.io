@@ -7,12 +7,12 @@ categories: projects
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>Korean-American Robotics Association</title>
+  <title>Korean-American Robotics Association (KARA)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="멘토링, 세미나, 연구 교류, 산업 네트워킹을 위한 한미 로보틱스 커뮤니티" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Korean-American Robotics Association" />
+  <meta property="og:title" content="Korean-American Robotics Association (KARA)" />
   <meta property="og:description" content="Mentoring · Seminars · Research Exchange · Industry Connections" />
   <meta property="og:image" content="./src/figure/kara_logo.png" />
   <meta property="og:image:width" content="880" />
@@ -41,10 +41,10 @@ categories: projects
 
   <style>
     :root {
-      --kara-green: #186814;
-      --kara-text: #2b2b2b;
-      --kara-muted: #484824;
-      --kara-bg-strip: #ebffe7;
+      --kara-green: #186814;       /* keep as accent (links, highlights) */
+      --kara-text: #2b2b2b;        /* main dark text (good contrast on #edf4f7) */
+      --kara-muted: #5c6670;       /* slightly cooler gray to match the blue tone */
+      --kara-bg-strip: #edf4f7;    /* section header background */
       --container-max: 1000px;
     }
     html { scroll-behavior: smooth; }
@@ -103,7 +103,7 @@ categories: projects
         <div class="spacer"></div>
 
         <header class="hero">
-          <h1><strong>Korean-American Robotics Association</strong></h1>
+          <h1><strong>Korean-American Robotics Association (KARA)</strong></h1>
           <h3 class="subhead">멘토링 · 세미나 · 연구 교류 · 산업 네트워킹</h3>
           <h3 class="subhead">Founded in 2025 · Online &amp; In-person</h3>
         </header>
@@ -138,7 +138,7 @@ categories: projects
 
     <section id="mission">
       <h2>Mission & Activities</h2>
-      <p><strong>Korean-American Robotics Association</strong>는 로보틱스 분야의 한인 및 한미 학생, 연구자, 산업 종사자 커뮤니티이며, 아래와 같은 활동은 진행중입니다.</p>
+      <p><strong>Korean-American Robotics Association (KARA)</strong>는 로보틱스 분야의 한인 및 한미 학생, 연구자, 산업 종사자 커뮤니티이며, 아래와 같은 활동은 진행중입니다.</p>
       <ul>
         <li>멘토링 — 학생과 연구자, 산업 전문가를 연결</li>
         <li>세미나 & 워크숍 — 최신 연구 및 노하우 공유</li>
@@ -177,7 +177,7 @@ categories: projects
   </main>
 
   <footer class="section-container">
-    <div class="section-background" style="background-color:#87CEEB;"></div>
+    <div class="section-background" style="background-color:#edf4f7;"></div>
     <div class="section-content">
       <div class="container center">
         <p class="muted">© <span id="year"></span> Korean-American Robotics Association · All rights reserved.</p>
