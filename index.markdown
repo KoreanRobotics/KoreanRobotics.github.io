@@ -151,10 +151,10 @@ categories: projects
     <section id="seminars">
       <h2>Seminars (Recent 4)</h2>
       <ul class="seminar-list">
-        <li class="seminar-item"><div class="seminar-date">2025-08-21</div><div><div class="seminar-title">Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs</div><div class="seminar-presenters">Presenter: Won Dong Shin (Assistant Professor, POSTECH)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-07-24</div><div><div class="seminar-title">Radiation Source Localization using Mobile Robot</div><div class="seminar-presenters">Presenter: Hojoon Son (Ph.D. Student, Georgia Tech)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-07-10</div><div><div class="seminar-title">Toward Real-Time Open-Vocabulary Semantic Mapping for Outdoor Robot Navigation</div><div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, Carnegie Mellon)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-06-26</div><div><div class="seminar-title">Versatile Trajectory Planner for Aerial Tracking</div><div class="seminar-presenters">Presenter: Yunwoo Lee (Postdoctoral Researcher, Carnegie Mellon)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-10-16</div><div><div class="seminar-title">Sensorimotor Abstraction for Learning Generalizable Skills across Diverse Robots</div><div class="seminar-presenters">Presenter: Mingyo Seo (Ph.D. Student, UT Austin)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-10-02</div><div><div class="seminar-title">Socially and Contextually Aware Navigation for Robots in Human-Centric Environments</div><div class="seminar-presenters">Presenter: Daeun Song (Postdoctoral Researcher, George Mason)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-09-18</div><div><div class="seminar-title">Cotrol Contraction Metric-Guided Reinforcement Learning for Robust Path Tracking</div><div class="seminar-presenters">Presenter: Minjae Choi (Ph.D Student, UIUC)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-09-18</div><div><div class="seminar-title">Open Discussion: Vision-Language-Action Models</div><div class="seminar-presenters">Presenter: Dongho Kang (Ph.D Student, UT Austin)</div></div></li>
       </ul>
     </section>
 
