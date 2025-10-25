@@ -154,7 +154,7 @@ categories: projects
         <li class="seminar-item"><div class="seminar-date">2025-10-16</div><div><div class="seminar-title">Sensorimotor Abstraction for Learning Generalizable Skills across Diverse Robots</div><div class="seminar-presenters">Presenter: Mingyo Seo (Ph.D. Student, UT Austin)</div></div></li>
         <li class="seminar-item"><div class="seminar-date">2025-10-02</div><div><div class="seminar-title">Socially and Contextually Aware Navigation for Robots in Human-Centric Environments</div><div class="seminar-presenters">Presenter: Daeun Song (Postdoctoral Researcher, George Mason)</div></div></li>
         <li class="seminar-item"><div class="seminar-date">2025-09-18</div><div><div class="seminar-title">Cotrol Contraction Metric-Guided Reinforcement Learning for Robust Path Tracking</div><div class="seminar-presenters">Presenter: Minjae Choi (Ph.D Student, UIUC)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-09-18</div><div><div class="seminar-title">Open Discussion: Vision-Language-Action Models</div><div class="seminar-presenters">Presenter: Dongho Kang (Ph.D Student, UT Austin)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-09-04</div><div><div class="seminar-title">Open Discussion: Vision-Language-Action Models</div><div class="seminar-presenters">Presenter: Dongho Kang (Ph.D Student, UT Austin)</div></div></li>
       </ul>
     </section>
 
