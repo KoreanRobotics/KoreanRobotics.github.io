@@ -154,7 +154,7 @@ categories: projects
         <li class="seminar-item"><div class="seminar-date">2026-02-05</div><div><div class="seminar-title">Are you confident your sensor is tuned correctly? Robust Kalman filtering under noise uncertainty</div><div class="seminar-presenters">Presenter: Minhyuk Jang (Ph.D. Student, UIUC)</div></div></li>
         <li class="seminar-item"><div class="seminar-date">2026-01-22</div><div><div class="seminar-title">Humanoid outdoor navigation: review, current progress, and future direction</div><div class="seminar-presenters">Presenter: Ziwon Yoon (Ph.D. Student, Georgia Tech)</div></div></li>
         <li class="seminar-item"><div class="seminar-date">2025-12-11</div><div><div class="seminar-title">Failure-Resilient Grasping Through Inherent Functionality: Autonomous and Assistive Perspectives</div><div class="seminar-presenters">Presenter: Jungpyo Lee (Postdoctoral Scholar, UC Berkeley)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-09-04</div><div><div class="seminar-title">Discussion Session: Paths to Graduate Internship Opportunities</div><div class="seminar-presenters">Presenter: Seongwon Lee (UIUC), Wonsuhk Jung (Georgia Tech), Mingyo Seo (UT Austin)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-11-13</div><div><div class="seminar-title">Discussion Session: Paths to Graduate Internship Opportunities</div><div class="seminar-presenters">Presenter: Seongwon Lee (UIUC), Wonsuhk Jung (Georgia Tech), Mingyo Seo (UT Austin)</div></div></li>
       </ul>
     </section>
 
