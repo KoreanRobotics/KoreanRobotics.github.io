@@ -151,10 +151,10 @@ categories: projects
     <section id="seminars">
       <h2>Seminars (Recent 4)</h2>
       <ul class="seminar-list">
-        <li class="seminar-item"><div class="seminar-date">2025-10-16</div><div><div class="seminar-title">Sensorimotor Abstraction for Learning Generalizable Skills across Diverse Robots</div><div class="seminar-presenters">Presenter: Mingyo Seo (Ph.D. Student, UT Austin)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-10-02</div><div><div class="seminar-title">Socially and Contextually Aware Navigation for Robots in Human-Centric Environments</div><div class="seminar-presenters">Presenter: Daeun Song (Postdoctoral Researcher, George Mason)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-09-18</div><div><div class="seminar-title">Cotrol Contraction Metric-Guided Reinforcement Learning for Robust Path Tracking</div><div class="seminar-presenters">Presenter: Minjae Choi (Ph.D Student, UIUC)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2025-09-04</div><div><div class="seminar-title">Open Discussion: Vision-Language-Action Models</div><div class="seminar-presenters">Presenter: Dongho Kang (Ph.D Student, UT Austin)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2026-02-05</div><div><div class="seminar-title">Are you confident your sensor is tuned correctly? Robust Kalman filtering under noise uncertainty</div><div class="seminar-presenters">Presenter: Minhyuk Jang (Ph.D. Student, UIUC)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2026-01-22</div><div><div class="seminar-title">Humanoid outdoor navigation: review, current progress, and future direction</div><div class="seminar-presenters">Presenter: Ziwon Yoon (Ph.D. Student, Georgia Tech)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-12-11</div><div><div class="seminar-title">Failure-Resilient Grasping Through Inherent Functionality: Autonomous and Assistive Perspectives</div><div class="seminar-presenters">Presenter: Jungpyo Lee (Postdoctoral Scholar, UC Berkeley)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2025-09-04</div><div><div class="seminar-title">Discussion Session: Paths to Graduate Internship Opportunities</div><div class="seminar-presenters">Presenter: Seongwon Lee (UIUC), Wonsuhk Jung (Georgia Tech), Mingyo Seo (UT Austin)</div></div></li>
       </ul>
     </section>
 
