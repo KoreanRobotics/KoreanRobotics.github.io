@@ -169,6 +169,7 @@ categories: projects
         <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.png" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU/UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.png" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/slee.png" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/yseo.jpg" alt="Yunsoo Seo" /><p><span>Yunsoo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
       </div>
     </section>
 
