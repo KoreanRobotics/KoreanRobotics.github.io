@@ -104,8 +104,7 @@ categories: projects
 
         <header class="hero">
           <h1><strong>Korean-American Robotics Association (KARA)</strong></h1>
-          <h3 class="subhead">멘토링 · 세미나 · 연구 교류 · 산업 네트워킹</h3>
-          <h3 class="subhead">Founded in 2025 · Online &amp; In-person</h3>
+          <h3 class="subhead">Founded in 2025</h3>
         </header>
 
         <div class="spacer"></div>
@@ -166,10 +165,16 @@ categories: projects
         <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.png" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/skim.png" alt="Sungmin Kim" /><p><span>Sungmin Kim</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/dkang.jpg" alt="Dongho Kang" /><p><span>Dongho Kang</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.png" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU/UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.png" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/slee.png" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/yseo.jpg" alt="Yunsoo Seo" /><p><span>Yunsoo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
+      </div>
+    </section>
+
+    <section id="advisors">
+      <h2 id="organizers-heading">Advisors</h2>
+      <div class="organizers-grid">
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.png" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU</span></p></div>
       </div>
     </section>
 
