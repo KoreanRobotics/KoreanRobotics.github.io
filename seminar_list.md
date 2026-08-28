@@ -266,6 +266,7 @@ Presenter #2: Seongwon Lee
 Title: Introduction to Task and Motion Planning
 Abstract: Task and Motion Planning (TAMP) lies at the intersection of high-level task reasoning and low-level motion generation, playing a critical role in enabling autonomous systems to operate effectively in complex environments. This seminar will provide a comprehensive tutorial on the foundational concepts and modern approaches in TAMP. It will begin with an overview of integrated task and motion planning, followed by a discussion of motion planning fundamentals, including Configuration Space (C-space) as a key representation for robot motion. The seminar will then introduce two primary motion planning paradigms: sampling-based methods, such as Rapidly-exploring Random Trees (RRT) and Probabilistic Roadmaps (PRM), and optimization-based approaches, which formulate motion planning as a constrained optimization problem. The session will also cover the basics of task planning, introducing the Planning Domain Definition Language (PDDL) framework and commonly used planning techniques. The seminar will conclude with a discussion of open research questions and challenges in integrated task and motion planning. This session aims to provide both conceptual understanding and practical insights, serving as an accessible introduction to the field.
 
+2월 6일
 곧 첫 리서치 세미나가 열릴 예정이니, 많은 참여 부탁드립니다! 자세한 사항은 아래의 줌 링크와 첨부된 포스터를 참고해 주세요.
 Presenter #1: Mingyo Seo
 Title: Scalable Motor Skill Learning for Diverse Robot Embodiments

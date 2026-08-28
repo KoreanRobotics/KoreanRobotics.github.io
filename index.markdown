@@ -112,7 +112,6 @@ categories: projects
         <nav class="nav" aria-label="Section navigation">
           <a href="#mission">Mission & Activities</a>
           <a href="#seminars">Seminars</a>
-          <a href="{{ '/past-seminars/' | relative_url }}">Past Seminars</a>
           <a href="#organizers">Organizers</a>
         </nav>
 
@@ -129,7 +128,7 @@ categories: projects
         <li><i class="fa-solid fa-video"></i> <a href="https://tinyurl.com/4kv83ba7" target="_blank">세미나 Zoom 링크</a></li>
         <li><i class="fa-solid fa-calendar-days"></i> <a href="https://shorturl.at/Z11KU" target="_blank">Google Calendar</a></li>
         <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/groups/13352540/" target="_blank">LinkedIn</a></li>
-        <li><i class="fa-brands fa-slack"></i> <a href="https://shorturl.at/dS4QC" target="_blank">Slack</a></li>
+        <li><i class="fa-brands fa-slack"></i> <a href="https://join.slack.com/t/koreanamerica-wbq6106/shared_invite/zt-40dqyrid0-GiHZMKnEDuuR6u519hhfWg" target="_blank" rel="noopener">Slack</a></li>
         <li><i class="fa-solid fa-envelope"></i> <a href="https://shorturl.at/w3S21" target="_blank">Mailing List 가입</a></li>
       </ul>
     </section>
@@ -151,10 +150,12 @@ categories: projects
     <section id="seminars">
       <h2>Seminars (Recent 4)</h2>
       <ul class="seminar-list">
-        <li class="seminar-item"><div class="seminar-date">2026-08-27</div><div><div class="seminar-title">Design of High-Power Underactuated Monopedal Hopping Robots</div><div class="seminar-presenters">Presenter: Gihyeok Na (Ph.D. Student, University of Illinois at Urbana-Champaign)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2026-04-30</div><div><div class="seminar-title">Shaping Dexterity Through Hardware: Contact Morphology, Compliance, and Mechanism Design</div><div class="seminar-presenters">Presenter: Dong Ho Kang (Ph.D. Student, University of Texas at Austin)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2026-04-16</div><div><div class="seminar-title">Scaling Multi-Robot Task and Motion Planning with Decomposable State Space Hypergraphs</div><div class="seminar-presenters">Presenter: Seongwon Lee (Ph.D. Student, University of Illinois at Urbana-Champaign)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2026-04-02</div><div><div class="seminar-title">Predictive Semantic Foresight for Mobile Robot Autonomy</div><div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, Carnegie Mellon University)</div></div></li>
+        {% assign past_seminars_page = site.pages | where: "permalink", "/past-seminars/" | first %}
+        {% if past_seminars_page %}
+          {% for seminar in past_seminars_page.seminars limit:4 %}
+            <li class="seminar-item"><div class="seminar-date">{{ seminar.date }}</div><div><div class="seminar-title">{{ seminar.title }}</div><div class="seminar-presenters">{{ seminar.presenters }}</div></div></li>
+          {% endfor %}
+        {% endif %}
       </ul>
       <p class="see-more"><a href="{{ '/past-seminars/' | relative_url }}">View all past seminars →</a></p>
     </section>
@@ -164,7 +165,6 @@ categories: projects
     <section id="organizers">
       <h2 id="organizers-heading">Organizers</h2>
       <div class="organizers-grid">
-        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.png" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/skim.png" alt="Sungmin Kim" /><p><span>Sungmin Kim</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/dkang.jpg" alt="Dongho Kang" /><p><span>Dongho Kang</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.png" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
@@ -174,9 +174,10 @@ categories: projects
     </section>
 
     <section id="advisors">
-      <h2 id="organizers-heading">Advisors</h2>
+      <h2 id="advisors-heading">Advisors</h2>
       <div class="organizers-grid">
         <div class="organizer"><img class="profile" src="./src/figure/organizers/ysung.png" alt="Yoonchang Sung" /><p><span>Yoonchang Sung</span><br><span class="muted">Assistant Professor<br>NTU</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/mseo.png" alt="Mingyo Seo" /><p><span>Mingyo Seo</span><br><span class="muted">Assistant Professor<br>University of Central Florida</span></p></div>
       </div>
     </section>
 
