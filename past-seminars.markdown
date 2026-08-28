@@ -38,7 +38,7 @@ seminars:
         In this talk, I will present our recent work on enabling reliable aerial manipulation through the integration of hardware design, robust/adaptive control, and policy learning. First, I introduce control frameworks for aerial physical interaction that ensure robust stability under unknown interaction forces and dynamic environments. Next, I present aerial platforms specifically designed for manipulation tasks, including tiltrotor-based systems that expand feasible interaction capabilities. Building on these developments, I will highlight our recent work on omnidirectional aerial manipulators that can perform manipulation at arbitrary poses in SE(3), enabled by geometric robust control and whole-body motion planning. Finally, I will discuss our recent efforts toward learning-based visuomotor policies that generalize manipulation behaviors for aerial robots.
   - date: "2026-03-05"
     title: "Open Discussion: Publishing in Robotics Journals and Conferences"
-    presenters: "Presenter information not provided"
+    presenters: ""
   - date: "2026-02-19"
     title: "Reinforcement learning referenced whole body MPPI for humanoid walking control"
     presenters: "Presenter: yunsoo seo (PhD Student @ UT Austin)"
@@ -105,7 +105,7 @@ seminars:
         Control contraction metrics (CCMs)—positive-definite Riemannian metrics under which a closed-loop system is guaranteed to be incrementally exponentially stable—can be used to synthesize a contracting policy in path-tracking problems. However, the synthesized policy only ensures pointwise satisfaction of the CCM conditions and does not consider long-term optimality (i.e., cumulative tracking error) over the entire trajectory. Furthermore, this myopic approach may make the policy more susceptible to learning biases when approximate dynamics are used to formulate CCMs. To address these issues, we propose to integrate CCMs into reinforcement learning (RL), where CCMs provide dynamics-informed feedback for learning a contracting policy while RL gives a framework for minimizing cumulative tracking error under approximate dynamics. We show that our algorithm, contraction actor-critic (CAC), enhances path-tracking performance and remains robust under approximation errors of dynamics compared to relevant baselines.
   - date: "2025-09-04"
     title: "Open Discussion: Vision-Language-Action Models"
-    presenters: "Presenter information not provided"
+    presenters: ""
   - date: "2025-08-21"
     title: "Fast Ground-to-Air Transition Enabled by Avian-Inspired Multifunctional Legs"
     presenters: "Presenter: Won Dong Shin (Assistant Professor at POSTECH)"
@@ -138,7 +138,7 @@ seminars:
         Online monitoring systems powered by sensors installed over the facilities have been an essential component in securing safety and efficiency in nuclear power plants (NPPs) for decades. However, due to limited information from a finite number of sensors, human workers are often required to be dispatched to the vicinity of the facilities for further inspections. To fully automate such processes with robots, this research presents a new machine learning based monitoring system with adaptive data acquisition from mobile robots. Along with the data constantly streamed from fixed sensors, the proposed system actively utilizes data from robots for improved diagnosis. The proposed framework includes: an initial robot deployment strategy with anomaly detection and localization method in a large scale NPPs, measurement selection algorithm based on constrained decision tree for faster and accurate diagnosis, and non-synchronous data compensation under transient conditions. The research also delineates key simulation techniques not only to improve dataset’s diversity, but also to evaluate the developed machine learning models in more quantitative ways.
   - date: "2025-05-29"
     title: "Open Discussion: ICRA Research Presentations"
-    presenters: "Presenter information not provided"
+    presenters: ""
   - date: "2025-05-15"
     title: "A Geometric Take on Motion Manifold Learning from Demonstration"
     presenters: "Presenter: Yonghyeon Lee"
