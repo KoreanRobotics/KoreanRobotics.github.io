@@ -112,6 +112,7 @@ categories: projects
         <nav class="nav" aria-label="Section navigation">
           <a href="#mission">Mission & Activities</a>
           <a href="#seminars">Seminars</a>
+          <a href="{{ '/past-seminars/' | relative_url }}">Past Seminars</a>
           <a href="#organizers">Organizers</a>
         </nav>
 
@@ -125,7 +126,7 @@ categories: projects
     <section id="quicklinks">
       <h2>Quick Links</h2>
       <ul>
-        <li><i class="fa-solid fa-video"></i> <a href="https://utexas.zoom.us/j/97343134961?pwd=yc8JkUJ4uT7ArNF7LOG8UrkCcOfOGs.1" target="_blank">세미나 Zoom 링크</a></li>
+        <li><i class="fa-solid fa-video"></i> <a href="https://tinyurl.com/4kv83ba7" target="_blank">세미나 Zoom 링크</a></li>
         <li><i class="fa-solid fa-calendar-days"></i> <a href="https://shorturl.at/Z11KU" target="_blank">Google Calendar</a></li>
         <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/groups/13352540/" target="_blank">LinkedIn</a></li>
         <li><i class="fa-brands fa-slack"></i> <a href="https://shorturl.at/dS4QC" target="_blank">Slack</a></li>
@@ -150,11 +151,12 @@ categories: projects
     <section id="seminars">
       <h2>Seminars (Recent 4)</h2>
       <ul class="seminar-list">
-        <li class="seminar-item"><div class="seminar-date">2026-04-02</div><div><div class="seminar-title">TBD</div><div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, CMU)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2026-03-19</div><div><div class="seminar-title">Hardware, Control, and Learning for Aerial Manipulation</div><div class="seminar-presenters">Presenter: Dongjae Lee (Assistant Professor, Kyung Hee University)</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2026-03-05</div><div><div class="seminar-title">Open Discussion: Publishing in Robotics Journals and Conferences</div><div class="seminar-presenters">Presenters: KARA Organizers</div></div></li>
-        <li class="seminar-item"><div class="seminar-date">2026-02-19</div><div><div class="seminar-title">Reinforcement Learning Referenced Whole Body MPPI for Humanoid Walking Control</div><div class="seminar-presenters">Presenter: Yunsoo Seo (Ph.D. Student, UT Austin)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2026-08-27</div><div><div class="seminar-title">Design of High-Power Underactuated Monopedal Hopping Robots</div><div class="seminar-presenters">Presenter: Gihyeok Na (Ph.D. Student, University of Illinois at Urbana-Champaign)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2026-04-30</div><div><div class="seminar-title">Shaping Dexterity Through Hardware: Contact Morphology, Compliance, and Mechanism Design</div><div class="seminar-presenters">Presenter: Dong Ho Kang (Ph.D. Student, University of Texas at Austin)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2026-04-16</div><div><div class="seminar-title">Scaling Multi-Robot Task and Motion Planning with Decomposable State Space Hypergraphs</div><div class="seminar-presenters">Presenter: Seongwon Lee (Ph.D. Student, University of Illinois at Urbana-Champaign)</div></div></li>
+        <li class="seminar-item"><div class="seminar-date">2026-04-02</div><div><div class="seminar-title">Predictive Semantic Foresight for Mobile Robot Autonomy</div><div class="seminar-presenters">Presenter: Seungchan Kim (Ph.D. Student, Carnegie Mellon University)</div></div></li>
       </ul>
+      <p class="see-more"><a href="{{ '/past-seminars/' | relative_url }}">View all past seminars →</a></p>
     </section>
 
     <div class="spacer-lg"></div>
