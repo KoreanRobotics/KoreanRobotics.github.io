@@ -170,6 +170,8 @@ categories: projects
         <div class="organizer"><img class="profile" src="./src/figure/organizers/wjung.png" alt="Wonsuhk Jung" /><p><span>Wonsuhk Jung</span><br><span class="muted">Ph.D. Student<br>Georgia Tech</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/slee.png" alt="Seongwon Lee" /><p><span>Seongwon Lee</span><br><span class="muted">Ph.D. Student<br>UIUC</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/yseo.jpg" alt="Yunsoo Seo" /><p><span>Yunsoo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/seungjae_baek.png" alt="Seungjae Baek" /><p><span>Seungjae Baek</span><br><span class="muted">CMU</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/Sungkyung_Kim.jpg" alt="Sungkyung Kim" /><p><span>Sungkyung Kim</span><br><span class="muted">Georgia Tech</span></p></div>
       </div>
     </section>
 
