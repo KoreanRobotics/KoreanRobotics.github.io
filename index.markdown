@@ -172,6 +172,7 @@ categories: projects
         <div class="organizer"><img class="profile" src="./src/figure/organizers/yseo.jpg" alt="Yunsoo Seo" /><p><span>Yunsoo Seo</span><br><span class="muted">Ph.D. Student<br>UT Austin</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/seungjae_baek.png" alt="Seungjae Baek" /><p><span>Seungjae Baek</span><br><span class="muted">CMU</span></p></div>
         <div class="organizer"><img class="profile" src="./src/figure/organizers/Sungkyung_Kim.jpg" alt="Sungkyung Kim" /><p><span>Sungkyung Kim</span><br><span class="muted">Georgia Tech</span></p></div>
+        <div class="organizer"><img class="profile" src="./src/figure/organizers/woo_chul_shin.jpeg" alt="WooChul Shin" /><p><span>WooChul Shin</span><br><span class="muted">University of Maryland</span></p></div>
       </div>
     </section>
 
