@@ -5,6 +5,12 @@ permalink: /past-seminars/
 categories: projects
 
 seminars:
+  - date: "2026-09-24"
+    title: "4D Latent Mapping for Mobile Manipulation Policy Learning"
+    presenters: "Presenter: Byeonghyun Pak (PhD Student, University of Maryland)"
+  - date: "2026-09-10"
+    title: "Paper Review: World Model for Robot Learning"
+    presenters: "Presenter: Jaepil Jang(PhD Student, University of Central Florida)"
   - date: "2026-08-27"
     title: "Design of High-Power Underactuated Monopedal Hopping Robots"
     presenters: "Presenter: Gihyeok Na (PhD Student, University of Illinois at Urbana-Champaign)"

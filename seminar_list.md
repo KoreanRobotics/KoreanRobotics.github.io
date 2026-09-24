@@ -1,3 +1,15 @@
+📢 KARA 제32회 정기 세미나를 안내드립니다! 많은 참여 부탁드립니다! 😆
+일자: 9월 24일 (목)
+시간: 8:00PM-9:30PM ET (7:00PM-8:30PM CT, 5:00PM-6:30PM PT)
+발표자: Byeonghyun Pak (PhD Student, University of Maryland)
+발표 제목: 4D Latent Mapping for Mobile Manipulation Policy Learning
+
+📢 KARA 제31회 정기 세미나를 안내드립니다! 많은 참여 부탁드립니다! 😆
+일자: 9월 10일 (목)
+시간: 8:00PM-9:30PM ET (7:00PM-8:30PM CT, 5:00PM-6:30PM PT)
+발표자: Jaepil Jang(PhD Student, University of Central Florida)
+발표 제목: Paper Review: World Model for Robot Learning
+
 KARA 제30회 정기 세미나
 일자: 8월 27일 (목)
 시간: 8:00PM-9:30PM ET (7:00PM-8:30PM CT, 5:00PM-6:30PM PT)
