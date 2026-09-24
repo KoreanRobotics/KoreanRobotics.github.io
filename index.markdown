@@ -73,7 +73,7 @@ categories: projects
     .spacer-lg { height: 40px; }
     .hero h1 strong { font-weight: 800; }
     .subhead { color: var(--kara-muted); margin-top: 6px; }
-    .nav { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; font-size: 0.98rem; }
+    .nav { display: flex; gap: 24px; flex-wrap: wrap; justify-content: flex-start; font-size: 0.98rem; }
     .nav a { color: var(--kara-muted); }
     .seminar-list { list-style: none; padding: 0; margin: 0; }
     .seminar-item { display: grid; grid-template-columns: 140px 1fr; gap: 12px; padding: 14px 0; border-bottom: 1px solid #eee; }
