@@ -1,3 +1,16 @@
+📢 KARA 제34회 정기 세미나를 안내드립니다! 많은 참여 부탁드립니다! 😆
+일자: 10월 22일 (목)
+시간: 8:00PM-9:30PM ET (7:00PM-8:30PM CT, 5:00PM-6:30PM PT)
+발표자: Chaerim Moon (Ph.D. Student, UIUC)
+발표 제목: Rethinking Quadrupedal Locomotion in Microgravity
+
+📢 KARA 제33회 정기 세미나를 안내드립니다! 많은 참여 부탁드립니다! 😆
+이번 세미나에서는 [Holiday Robotics](https://www.linkedin.com/company/holiday-robotics/)의 회사 소개와 함께 채용 및 인턴십 공고도 안내될 예정이니, 관심 있으신 분들의 많은 참여 부탁드립니다!
+일자: 10월 8일 (목)
+시간: 8:00PM-9:30PM ET (7:00PM-8:30PM CT, 5:00PM-6:30PM PT)
+발표자: Moses C. Nah (US Office Lead, Holiday Robotics)
+발표 제목: Modularity: What Robotics May Yet Learn from Biology
+
 📢 KARA 제32회 정기 세미나를 안내드립니다! 많은 참여 부탁드립니다! 😆
 일자: 9월 24일 (목)
 시간: 8:00PM-9:30PM ET (7:00PM-8:30PM CT, 5:00PM-6:30PM PT)

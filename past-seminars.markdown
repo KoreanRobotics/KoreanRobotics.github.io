@@ -5,6 +5,13 @@ permalink: /past-seminars/
 categories: projects
 
 seminars:
+  - date: "2026-10-22"
+    title: "Rethinking Quadrupedal Locomotion in Microgravity"
+    presenters: "Presenter: Chaerim Moon (Ph.D. Student, UIUC)"
+  - date: "2026-10-08"
+    title: "Modularity: What Robotics May Yet Learn from Biology"
+    presenters: "Presenter: Moses C. Nah (US Office Lead, Holiday Robotics)"
+    note: 'The seminar also included an introduction to [Holiday Robotics](https://www.linkedin.com/company/holiday-robotics/) and information about job and internship opportunities.'
   - date: "2026-09-24"
     title: "4D Latent Mapping for Mobile Manipulation Policy Learning"
     presenters: "Presenter: Byeonghyun Pak (PhD Student, University of Maryland)"
@@ -304,6 +311,9 @@ seminars:
           <div>
             <div class="seminar-title">{{ seminar.title | replace: " / ", "<br />" }}</div>
             <div class="seminar-presenters">{{ seminar.presenters }}</div>
+            {% if seminar.note %}
+            <div class="muted">{{ seminar.note | markdownify }}</div>
+            {% endif %}
             {% if seminar.abstract %}
             <details class="abstract-details">
               <summary>Abstract</summary>
